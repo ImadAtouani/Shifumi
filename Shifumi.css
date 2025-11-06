@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;600&display=swap");
+
+body {
+  font-family: "Rajdhani", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #090221 0%, #16235e 45%, #2b90d9 100%);
+  color: #f0f4ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.conteneur {
+  background: linear-gradient(
+    160deg,
+    rgba(13, 22, 54, 0.92),
+    rgba(27, 66, 123, 0.92)
+  );
+  border: 2px solid rgba(97, 218, 251, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  padding: 40px 48px;
+  max-width: 540px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+  color: #61dafb;
+  text-shadow: 0 0 12px rgba(97, 218, 251, 0.6);
+}
+
+.choix {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.bouton-choix {
+  padding: 14px 28px;
+  font-size: 18px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #ff6584, #fca311);
+  color: #101226;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+  font-weight: 600;
+}
+
+.bouton-choix:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(255, 101, 132, 0.4);
+  border-color: rgba(16, 18, 38, 0.35);
+}
+
+.resultat,
+.score-jeu,
+.manche {
+  margin: 14px 0;
+  font-size: 19px;
+}
+
+.manche {
+  color: #ffe66d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.resultat {
+  min-height: 48px;
+  color: #f8f9ff;
+}
+
+.score-jeu {
+  background: rgba(97, 218, 251, 0.12);
+  border: 1px solid rgba(97, 218, 251, 0.4);
+  border-radius: 12px;
+  padding: 12px 18px;
+  color: #d8eefe;
+}
+
+.affichage-choix {
+  margin-top: 12px;
+  font-size: 17px;
+  color: #c7d6ff;
+}
+
+#rejouer {
+  margin-top: 26px;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 230, 109, 0.6);
+  background: linear-gradient(135deg, #2a9d8f, #56cfe1);
+  color: #0b0f2e;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  font-weight: 600;
+}
+
+#rejouer:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(42, 157, 143, 0.45);
+}
