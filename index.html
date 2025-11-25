@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shifumi</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="conteneur">
+      <h1>Shifumi</h1>
+      <div class="manche" id="manche">🕹️ Manche 1 / 3</div>
+      <div class="choix">
+        <button class="bouton-choix" onclick="jouer('Pierre')">Pierre 🪨</button>
+        <button class="bouton-choix" onclick="jouer('Feuille')">Feuille 📄</button>
+        <button class="bouton-choix" onclick="jouer('Ciseaux')">Ciseaux ✂️</button>
+      </div>
+      <div class="resultat" id="resultat"></div>
+      <div class="score-jeu" id="scoreJeu">
+        🏆 Victoires: 0 | 🤖 Défaites: 0 | 🤝 Egalités: 0
+      </div>
+      <div class="affichage-choix" id="affichageChoix"></div>
+      <button id="rejouer" onclick="rejouer()" style="display: none">
+        Rejouer
+      </button>
+    </div>
+  </body>
+</html>
+
